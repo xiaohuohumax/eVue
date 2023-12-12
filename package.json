@@ -1,0 +1,31 @@
+{
+  "name": "e-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint:fix": "eslint --fix --ext=.ts,.d.ts,.vue . && echo success 🎉🎉"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "loglevel": "^1.8.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.55.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-mock": "^2.9.6",
+    "vue-tsc": "^1.8.5"
+  }
+}
